@@ -6,7 +6,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: darkgray;
+    background-color: rgb(211, 206, 206);
 }
 
 header{
@@ -86,11 +86,11 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 25px calc((100% - 1000px) / 2);
+    padding: 25px calc((100% - 1300px) / 2);
 }
 
 .show{
-    width: 1000px;
+    width: 1300px;
     height: 200px;
     margin-bottom: 50px;
 }
