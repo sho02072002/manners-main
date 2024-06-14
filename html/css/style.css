@@ -5,6 +5,7 @@
 
 html,body{
     height: 100%;
+    width: 100%;
     background-color: darkgray;
 }
 
@@ -51,7 +52,7 @@ header{
 .members{
     width: 260px;
     height: 350px;
-    margin: 25px 100px 100px;
+    margin: 25px calc((100% - 900px) / 6) 100px;
 }
 
 .image{
