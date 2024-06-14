@@ -19,12 +19,13 @@ header{
 }
 
 .header-name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 48px;
 }
 
 .header-menu{
     display: flex;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .menu-name a{
@@ -115,7 +116,7 @@ header{
 }
 
 .text{
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .menu-name{
