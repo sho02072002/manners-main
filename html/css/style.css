@@ -6,7 +6,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: rgb(211, 206, 206);
+    background-color: rgb(227, 221, 221);
 }
 
 header{
@@ -42,7 +42,9 @@ header{
 
 .title{
     font-size: 48px;
-    margin-left: 24px;
+    margin: 50px 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .images{
@@ -92,7 +94,9 @@ header{
 .show{
     width: 1300px;
     height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
 
 .show-title{
@@ -131,12 +135,12 @@ header{
 }
 
 .contents{
-    margin-left: 30px;
+    margin-left: 300px;
 }
 
 .content{
-    font-size: 30px;
-    margin-bottom: 18px;
+    font-size: 40px;
+    margin: 70px;
 }
 
 ul {
