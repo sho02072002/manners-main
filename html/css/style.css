@@ -3,19 +3,126 @@
     padding: 0;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(227, 221, 221);
-}
-
 header{
     width: 100%;
-    height: 130px;
+    height: 120px;
     background-color: rgb(106, 106, 194);
     display: flex;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
+}
+
+.header-self{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1rem;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.self-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.self-sub{
+    position: relative;
+}
+
+.self-sub:before{
+    content: '';            /* 空の要素を作る */
+    width: 600px;           /* 幅指定 */
+    height: 500px;          /* 高さ指定 */
+    border-radius:  50%;    /* 丸くする */
+    border: solid #8d8d8d;     /* 枠線指定 */
+    display:  block;        /* ブロック要素にする */
+    position:  absolute;    /* 位置調整 */
+    left:  310px;               /* 位置調整 */
+    right:  0;              /* 位置調整 */
+    margin:  auto;          /* 位置調整 */
+    top: 0;                 /* 位置調整 */
+    z-index: 1;            /* 重なり調整 */
+}
+
+.self-sub:after {
+    content: '';            /* 空の要素を作る */
+    width: 580px;           /* 幅指定 */
+    height: 480px;          /* 高さ指定 */
+    border-radius:  50%;    /* 丸くする */
+    border: 1px solid #8d8d8d; /* 枠線指定 */
+    display:  block;        /* ブロック要素にする */
+    position:  absolute;    /* 位置調整 */
+    left:  320px;               /* 位置調整 */
+    right:  0;              /* 位置調整 */
+    margin:  auto;          /* 位置調整 */
+    top: 10px;               /* 位置調整 */
+    z-index: 1;            /* 重なり調整 */
+}
+
+.self-title{
+    padding-bottom: 1px;
+    color: #333;
+    border-bottom: solid 3px #455586;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    z-index: 1; 
+}
+
+.self-title:before {
+    content:  '';               /* 空白の要素を作る */
+    background-color: #ffeaac;  /* 背景色指定 */
+    display:  block;            /* ブロック要素にする */
+    position:  absolute;        /* 位置調整 */
+    left:  0;                   /* 位置調整 */
+    height: 90px;               /* 高さ指定 */
+    width: 90px;                /* 幅指定 */
+    border-radius:  50%;        /* 丸くする */
+    top: 0;                     /* 位置調整 */
+    z-index:  -1;               /* 重なり調整 */
+}
+
+.self-main{
+    margin-left: 100px;
+}
+
+.image-self{
+    width: 300px;
+    height: 390px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.self-profile{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.self-title-name{
+    width: 120px;
+    height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.self-text{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .header-name{
@@ -37,7 +144,6 @@ header{
 .main-page{
     width: 100%;
     height: 100%;
-    padding-top: 15px;
 }
 
 .title{
@@ -152,4 +258,10 @@ ul {
 .hidden
 {
     display: none;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(183, 183, 183);
 }
