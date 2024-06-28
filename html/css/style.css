@@ -79,7 +79,7 @@ header{
     left:  310px;               /* 位置調整 */
     right:  0;              /* 位置調整 */
     margin:  auto;          /* 位置調整 */
-    top: 0;                 /* 位置調整 */
+    bottom: 20px;                 /* 位置調整 */
     z-index: 1;            /* 重なり調整 */
 }
 
@@ -94,7 +94,7 @@ header{
     left:  320px;               /* 位置調整 */
     right:  0;              /* 位置調整 */
     margin:  auto;          /* 位置調整 */
-    top: 10px;               /* 位置調整 */
+    bottom: 30px;               /* 位置調整 */
     z-index: 1;            /* 重なり調整 */
 }
 
@@ -161,6 +161,13 @@ header{
     width: 100%;
     height: 100%;
     padding: 0 24px;
+}
+
+.main-sudent{
+    width: 100%;
+    height: 100%;
+    border-left: double 50px #4ec4d3;/*左線*/
+    border-right: double 50px #4ec4d3;/*右線*/
 }
 
 .main-box{
